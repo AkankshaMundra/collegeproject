@@ -1,0 +1,142 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="frontpage.aspx.cs" Inherits="WebApplication13.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section id="first-section">
+         <img src="images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg" style="height:620px;width:100%; opacity:0.7" class="img-fluid" />
+            <h1>AJMER TOURISM</h1>
+            </section>
+         
+     
+                <div class="container-fluid">
+                  <div class="row">
+                      <div class="col px-5 py-5 text-center">
+                          <h2>ABOUT AJMER</h2>
+                         <p>Located in the heart of Rajasthan Ajmer is a small town with a very interesting past and in todays world 
+                          growing facets of growth and development in aspects of Culture, Education, state and privately owned Industrial
+                          & infrastructure establishments coalesce towards the fascination for trade tourism and investments in the
+                          district.In a picturesque valley surrounded by the hills of the Aravali range, 132 Kms. west of current 
+                          state capital - Jaipur lies the historic city of Ajmer- a green oasis, wrapped by barren hills founded
+                          by Raja Ajay Pal Chauhan in 7th century A.D.. Ajmer got its name from name from 'Ajay Meru' or the
+                          invincible hill. Here he built India's first hill fort, Taragarh. It continued to be the power center
+                          of the Chauhan clan till the end of the 12th century, Through times of War and peace. Through serenity
+                          and sacrifice.</p>
+                      </div>
+                      </div>
+                   </div>
+       
+      <div class="container-fluid">
+             <div class="row">
+                 <div class="col-md-4 mb-3">
+                 <div class="card">
+                     <div class="card-header text-center" style="background-color:#fccf4d;">
+                         <h2 style="font-family:'Goudy Old Style';font-weight:bold;">THIINGS TO DO</h2>
+                     </div>
+               <div class="card-body">
+                <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                  <a href=" https://localhost:44397/ThingsToDo.aspx"><img src="images/ana-sagar-lake.jpg" style="width:100%;height:200px;" class="img-fluid" /></a>
+                       </div>
+                        <div class="flip-box-back">
+                                    <h2>Paris</h2>
+                                     <p>What an amazing city</p>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+               </div>
+                     </div>
+                   
+                  <div class="col-md-4 mb-3">
+                <div class="card">
+                        <div class="card-header text-center" style="background-color:#fccf4d;">
+                              <h2 style="font-family:'Goudy Old Style';font-weight:bold;">PLACES TO VISIT</h2>
+                        </div>
+                        <div class="card-body">
+                             <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                            <a href=" https://localhost:44397/PlacesToVisit.aspx"><img class="card-img trans" src="images/d.jpg" style="width:100%;height:190px;" class="img-fluid"/></a>
+                        </div>
+                     </div>
+                                 </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center" style="background-color:#fccf4d;">
+                              <h2 style="font-family:'Goudy Old Style';font-weight:bold;">
+                              WHERE TO STAY </h2>
+                        </div>
+                        <div class="card-body">
+                             <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                          <a href="  https://localhost:44397/WhereToStay.aspx"><img class="card-img trans" src="images/163878152.jpg" style="width:100%;height:190px;" class="img-fluid"/></a>
+
+                        </div>
+                       </div>
+                                 </div>
+                        </div>
+                </div>
+                 </div>
+       
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+
+                
+                    <div class="card" style="min-height:100px;min-width:100px;">
+                         <div class="card-header text-center" style="background-color:#fccf4d;">
+               
+                    <h2 style="font-family:'Goudy Old Style';font-weight:bold;">
+                                WHERE TO EAT</h2>
+                        </div>
+                    <div class="card-body">
+                         <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                       <a href="https://localhost:44397/WhereToEat.aspx"><img class="card-img trans" src="images/food.jpg" style="width:100%;height:190px;" class="img-fluid" /></a></div>
+                    </div>
+                       </div>
+                        </div>
+                   </div>
+                    <div class="col-md-4 mb-3">
+                         <div class="card" style="min-height:100px;min-width:100px;">
+                         <div class="card-header text-center" style="background-color:#fccf4d;">
+               
+                       <h2 style="font-family:'Goudy Old Style';font-weight:bold;">
+                                WHERE TO SHOP</h2>
+                        </div>
+                    <div class="card-body">
+                         <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                       <a href="  https://localhost:44397/WhereToShop.aspx"><img class="card-img trans" src="images/colorful-rajasthan-tour.jpg" style="width:100%;height:190px;" class="img-fluid" /></a></div>
+                    </div>
+                  </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                     <div class="card" style="min-height:100px;min-width:100px;">
+                         <div class="card-header text-center" style="background-color:#fccf4d;">
+               
+                <h2 style="font-family:'Goudy Old Style';font-weight:bold;">
+                                HOW TO REACH </h2>
+                        </div>
+                   <div class="card-body">
+                        <div class="flip-box">
+                   <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                       <a href="  https://localhost:44397/HowToReach.aspx" ><img class="card-img trans" src="images/train1.jpg"  style="width:100%;height:190px;" class="img-fluid" /></a>
+                    </div>
+                       </div>
+                            </div>
+                  
+                        </div>
+
+       </div>
+                    </div>
+                    </div>
+   
+</asp:Content>
